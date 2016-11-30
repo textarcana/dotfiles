@@ -29,9 +29,14 @@ fi
 
 export CONFIG="${HOME}/.bash.d"
 
-source "${CONFIG}/editor_mac.profile"
-source "${CONFIG}/iterm2.profile"
-source "${CONFIG}/aliases_mac.profile"
-
 source "${CONFIG}/prompt.profile"
 source "${CONFIG}/aliases.profile"
+
+# Advanced toolset
+#
+# These will probably work on any Mac except you might have to edit
+# some paths. Patches welcome!
+#
+# source "${CONFIG}/editor_mac.profile"
+# source "${CONFIG}/iterm2.profile"
+# source "${CONFIG}/aliases_mac.profile"
