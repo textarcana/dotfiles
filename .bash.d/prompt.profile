@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 RESET="\[\017\]"
 NORMAL="\[\033[0m\]"
 RED="\[\033[31;1m\]"
