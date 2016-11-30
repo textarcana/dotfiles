@@ -33,6 +33,5 @@ source "${CONFIG}/editor_mac.profile"
 source "${CONFIG}/iterm2.profile"
 source "${CONFIG}/aliases_mac.profile"
 
-source "${CONFIG}/history.profile"
 source "${CONFIG}/prompt.profile"
 source "${CONFIG}/aliases.profile"
