@@ -7,7 +7,10 @@ export GIT_EDITOR=emacs
 
 export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
+export HISTFILESIZE=10000
 export HISTIGNORE="ls:exit:cd ..:cd -:cd ~:pwd:fg:cls:svn st"
+
+export PROMPT_COMMAND="$PROMPT_COMMAND; history -a;"
 
 # work around Windows line ending problems
 export LC_ALL='C'
